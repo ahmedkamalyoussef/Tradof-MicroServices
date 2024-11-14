@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E8AF4D5B-7EE6-4FAC-93B7-DDF42B14B190}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateWays", "ApiGateWays", "{C75A32D5-01E0-4B82-B007-6F745241B2E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuldingBlocks", "BuldingBlocks", "{D0453A06-AD87-4EA6-B5A0-B335E18373A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YarpApiGateway", "ApiGateWays\YarpApiGateway\YarpApiGateway.csproj", "{5CC4EF95-F4EA-41C2-8E90-54C2FAF6D249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuldingBlocks", "BuldingBlocks\BuldingBlocks\BuldingBlocks.csproj", "{8E7D62D5-3658-433B-988D-B45D14EB0FD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CC4EF95-F4EA-41C2-8E90-54C2FAF6D249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC4EF95-F4EA-41C2-8E90-54C2FAF6D249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC4EF95-F4EA-41C2-8E90-54C2FAF6D249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC4EF95-F4EA-41C2-8E90-54C2FAF6D249}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7D62D5-3658-433B-988D-B45D14EB0FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7D62D5-3658-433B-988D-B45D14EB0FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7D62D5-3658-433B-988D-B45D14EB0FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7D62D5-3658-433B-988D-B45D14EB0FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C75A32D5-01E0-4B82-B007-6F745241B2E3} = {E8AF4D5B-7EE6-4FAC-93B7-DDF42B14B190}
+		{D0453A06-AD87-4EA6-B5A0-B335E18373A4} = {E8AF4D5B-7EE6-4FAC-93B7-DDF42B14B190}
+		{5CC4EF95-F4EA-41C2-8E90-54C2FAF6D249} = {C75A32D5-01E0-4B82-B007-6F745241B2E3}
+		{8E7D62D5-3658-433B-988D-B45D14EB0FD0} = {D0453A06-AD87-4EA6-B5A0-B335E18373A4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E85C37FD-CDEA-455F-9028-7D04510C7A8B}
+	EndGlobalSection
+EndGlobal
